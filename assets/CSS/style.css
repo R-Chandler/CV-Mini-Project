@@ -22,6 +22,13 @@
     background-color: #525252;
 }
 
+/* -------------------------------------------------- Hover.css */
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
 /* -------------------------------------------------- Heading */
 
 header {
@@ -66,6 +73,10 @@ header {
 
 .menucontainer {
     font-size: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 #nav li {
